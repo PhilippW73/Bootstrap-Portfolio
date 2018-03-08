@@ -1,51 +1,91 @@
 body {
-  background: url("pictures/concrete_seamless.png");
+  background: black;
+}
+
+html {
+  background: black;
 }
 
 .row {
 	margin: 0;
 }
 
-.navbar-header {
-  background-color: #4aaaa5;
+/*.navbar-header {
+  background-color: #ffffff;
   margin-top: 0;
-}
+}*/
 
 #headercolor {
-  color: #ffffff;
+  background-color: black;
+  font-family: Georgia, Times, "Times New Roman", serif !important;
+  color: #777;
+
 }
 
-#header {
-	margin-right: 165px;
+.navbar {
+  background-color: black;
+  border: none;
+  font-family: Georgia, Times, "Times New Roman", serif !important;
 }
 
 .navbar-brand {
 	font-size: 30px;
-	font-family: Georgia, Times, "Times New Roman", serif;
+  background-color: black;
 }
 
 .navbar-default .navbar-brand:focus {
-  color: #ffffff;
+  color: black;
+}
+
+.navbar-default {
+  background-color: black;
+}
+
+.navbar-text {
+        width: 100%;
+        text-align: center;
+        background-color: #666666;
+        color: #777777;
+        padding: 0;
+        margin: 0;
+      }
+#linkcolor {
+  color: #0922C0;
+}
+#name {
+  font-family: Georgia, Times, "Times New Roman", serif !important;
+  font-size: 75px;
 }
 
 #logoMenu {
 	margin-top: 50px;
+  background-color: black;
+  border: none;
 }
 
 #picture {
 	margin: 0 30px 10px 0;
+  width: 150px;
+  height: 100px;
 }
 
 #logo {
+  top: 23px;
+  left: 76px;
 	height: 250px;
 	margin-top: -30px;
 }
 
 #text {
-	background-color: #ffffff;
+	background-color: black;
+  color: #A7A7AB;
 	margin-top: 20px;
   overflow: scroll;
   height: 500px;
+}
+
+#header {
+  padding-right: 185px;
 }
 
 h1 {
@@ -66,7 +106,7 @@ p {
 h1, h2, h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #A7A7AB;
 }
 
 li {
@@ -74,37 +114,42 @@ li {
 }
 
 .panel-heading {
-  color:#4aaaa5;
+  color:#0F2EF3;
   text-align: center;
 }
 
 .panel-title {
-	color:#4aaaa5;
+	color:#0F2EF3;
 }
 
 .panel-body {
 	padding-left: 38px;
+  background-color: black;
+  border: none;
 }
 
 .container-fluid {
   padding-left: 60px;
+  background-color: black;
+  font-family: Georgia, Times, "Times New Roman", serif !important;
+  color: #777;
 }
 
 
 .img-responsive {
-				height: 50px;
-				width: 50px;
+	height: 50px;
+	width: 50px;
 }
 
 
 .navbar-text {
-		    width: 100%;
-		    text-align: center;
-		    background-color: #666666;
-		    color: #777777;
-		    padding: 0;
-		    margin: 0;
-			}
+  width: 100%;
+  text-align: center;
+  background-color: #666666;
+  color: #777777;
+  padding: 0;
+  margin: 0;
+}
 
 .rounded {
 	height: 100px;
@@ -140,11 +185,11 @@ li {
   line-height: 30px;
   color: #fff;
   text-align: center;
-  background: #4aaaa5;
+  background: #A7A7AB;
   border-bottom: 0;
 }
 .text-muted {
-  color: #ffffff;
+  color: #777;
 }
 
 .footer {
@@ -153,8 +198,12 @@ li {
   width: 100%;
   text-align: center;
   margin-top: 15px;
-  background-color: #666666;
-  color: #ffffff;
+  background-color: black;
+  color: #0922C0;
   clear: both;
   top:50px;
+}
+
+.list-inline {
+  margin-left: 34px;
 }
