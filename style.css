@@ -44,12 +44,12 @@ html {
 }
 
 .navbar-text {
-        width: 100%;
-        text-align: center;
-        background-color: #666666;
-        color: #777777;
-        padding: 0;
-        margin: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #666666;
+  color: #777777;
+  padding: 0;
+  margin: 0;
       }
 #linkcolor {
   color: #0922C0;
@@ -140,12 +140,10 @@ li {
   color: #777;
 }
 
-
 .img-responsive {
 	height: 50px;
 	width: 50px;
 }
-
 
 .navbar-text {
   width: 100%;
