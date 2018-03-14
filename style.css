@@ -1,9 +1,11 @@
 body {
+  
   background: black;
 }
 
 html {
-  background: black;
+  
+  background: linear-gradient(black, #2B2B2E);
 }
 
 .row {
@@ -55,6 +57,7 @@ html {
 #name {
   font-family: Georgia, Times, "Times New Roman", serif !important;
   font-size: 75px;
+  margin-left: 25px;
 }
 
 #logoMenu {
@@ -86,10 +89,12 @@ html {
 
 #header {
   padding-right: 185px;
+  background: linear-gradient(#2B2B2E, black);
 }
 
 h1 {
   font-size: 30px;
+  margin-left: 18px;
 }
 
 h2, h3 {
@@ -202,6 +207,7 @@ li {
   color: #0922C0;
   clear: both;
   top:50px;
+
 }
 
 .list-inline {
